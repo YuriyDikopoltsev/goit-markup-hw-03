@@ -159,8 +159,8 @@
         <div class="container">
           <!-- Section Our Team Members -->
           <h2 class="title">Наша команда</h2>
-          <ul class="list">
-            <li>
+          <ul class="team-list list">
+            <li class="item">
               <img
                 src="./images/JohnSmith.jpg"
                 alt="Дизайн продукта Николай Кучеренко"
@@ -185,7 +185,7 @@
               </ul>
             </li>
 
-            <li>
+            <li class="item">
               <img
                 src="./images/MartaStewart.jpg"
                 alt="Фронтэнд разработчик Ольга Иванова"
@@ -210,7 +210,7 @@
               </ul>
             </li>
 
-            <li>
+            <li class="item">
               <img
                 src="./images/RobertJakis.jpg"
                 alt="Маркетолог Андрей Шевченко"
@@ -235,7 +235,7 @@
               </ul>
             </li>
 
-            <li>
+            <li class="item">
               <img
                 src="./images/MartinDoe.jpg"
                 alt="Дизайнер юзер интерфейса Иван Николаев"
@@ -266,34 +266,34 @@
       <section class="section clients container">
         <!-- Section Constant Clients -->
         <h2 class="title">Постоянные клиенты</h2>
-        <ul class="list">
-          <li>
+        <ul class="list clients-list">
+          <li class="item">
             <img src="./images/ClientLogo1.svg" alt="Я и Компания" />
             <a class="link" href=""></a>
           </li>
-          <li>
+          <li class="item">
             <img src="./images/ClientLogo2.svg" alt="Компания Тэглайн Хиар" /><a
               href=""
             ></a>
           </li>
-          <li>
+          <li class="item">
             <img src="./images/ClientLogo3.svg" alt="Компания" /><a
               class="link"
               href=""
             ></a>
           </li>
-          <li>
+          <li class="item">
             <img src="./images/ClientLogo4.svg" alt="Фостер Питерс" /><a
               href=""
             ></a>
           </li>
-          <li>
+          <li class="item">
             <img src="./images/ClientLogo5.svg" alt="Бренд" /><a
               class="link"
               href=""
             ></a>
           </li>
-          <li>
+          <li class="item">
             <img src="./images/ClientLogo6.svg" alt="Компания Тэглайн" /><a
               href=""
             ></a>
@@ -304,35 +304,48 @@
 
     <footer class="footer container">
       <!-- Footer -->
-      <a class="logo link" href="index.html">
-        <span class="web">Web</span>
-        <span class="stud">Studio</span>
-      </a>
-      <address class="address">
-        <span class="location">г. Киев, пр-т Леси Украинки, 26</span>
-        <ul class="list">
-          <li>
-            <a href="mailto:info@devstudio.com" class="link mail"
-              >info@devstudio.com</a
-            >
+      <ul class="list">
+        <li>
+          <a class="logo link" href="index.html">
+            <span class="web">Web</span>
+            <span class="stud">Studio</span>
+          </a>
+          <address class="address">
+            <span class="location">г. Киев, пр-т Леси Украинки, 26</span>
+            <ul class="list">
+              <li>
+                <a href="mailto:info@devstudio.com" class="link mail"
+                  >info@devstudio.com</a
+                >
+              </li>
+              <li>
+                <a class="link phone" href="tel:+380961111111"
+                  >+38 096 111 11 11</a
+                >
+              </li>
+            </ul>
+          </address>
+        </li>
+        <!-- Our Social Networks -->
+        <li>
+          <h2 class="text">присоединяйтесь</h2>
+          <ul class="list social">
+            <!-- Social network List -->
+            <li>
+              <a href="" class="link" aria-label="Instagram">Instagram</a>
+            </li>
+            <li><a href="" class="link" aria-label="Twitter">Twitter</a></li>
+            <li><a href="" class="link" aria-label="Facebook">Facebook</a></li>
+            <li><a href="" class="link" aria-label="LinkedIn">LinkedIn</a></li>
+          </ul>
           </li>
           <li>
-            <a class="link phone" href="tel:+380961111111">+38 096 111 11 11</a>
-          </li>
-        </ul>
-      </address>
-      <!-- Our Social Networks -->
-      <h2 class="text">присоединяйтесь</h2>
-      <ul class="list social">
-        <!-- Social network List -->
-        <li><a href="" class="link" aria-label="Instagram">Instagram</a></li>
-        <li><a href="" class="link" aria-label="Twitter">Twitter</a></li>
-        <li><a href="" class="link" aria-label="Facebook">Facebook</a></li>
-        <li><a href="" class="link" aria-label="LinkedIn">LinkedIn</a></li>
+          <h2 class="text">Подпишитесь на рассылку</h2>
+          <p class="button">Подписаться</p>
+          <!-- Тут будет форма подписки - когда научусь! =))) -->
+        </li>
+        </li>
       </ul>
-      <h2 class="text">Подпишитесь на рассылку</h2>
-      <p class="button">Подписаться</p>
-      <!-- Тут будет форма подписки - когда научусь! =))) -->
     </footer>
   </body>
 </html>
