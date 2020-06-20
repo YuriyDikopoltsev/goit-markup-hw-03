@@ -8,51 +8,58 @@
       href="https://fonts.googleapis.com/css2?family=Raleway:wght@700&family=Roboto:wght@400;500;700;900&display=swap"
       rel="stylesheet"
     />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/0.6.0/modern-normalize.min.css"
+    />
     <link rel="stylesheet" href="./css/style.css" />
   </head>
   <body class="body">
     <header class="header">
-      <nav class="navigation">
-        <!-- Logo -->
-        <a class="logo link" href="index.html">
-          <span class="web">Web</span>
-          <span class="stud">Studio</span>
-        </a>
+      <div class="container">
+        <nav class="navigation">
+          <!-- Logo -->
+          <a class="logo link" href="index.html">
+            <span class="web">Web</span>
+            <span class="stud">Studio</span>
+          </a>
 
-        <ul class="list">
-          <li><a class="link current" href="index.html">Студия</a></li>
-          <li><a class="link" href="portfolio.html">Портфолио</a></li>
-          <li><a class="link" href="">Контакты</a></li>
-        </ul>
-      </nav>
+          <ul class="list">
+            <li><a class="link current" href="index.html">Студия</a></li>
+            <li><a class="link" href="portfolio.html">Портфолио</a></li>
+            <li><a class="link" href="">Контакты</a></li>
+          </ul>
+        </nav>
 
-      <address class="address">
-        <ul class="list">
-          <li>
-            <a href="mailto:info@devstudio.com" class="link mail"
-              >info@devstudio.com</a
-            >
-          </li>
-          <li>
-            <a class="link phone" href="tel:+380961111111">+38 096 111 11 11</a>
-          </li>
-        </ul>
-      </address>
+        <address class="address">
+          <ul class="list">
+            <li>
+              <a href="mailto:info@devstudio.com" class="link mail"
+                >info@devstudio.com</a
+              >
+            </li>
+            <li>
+              <a class="link phone" href="tel:+380961111111"
+                >+38 096 111 11 11</a
+              >
+            </li>
+          </ul>
+        </address>
+      </div>
     </header>
 
     <main class="main">
       <!-- Unique content -->
 
-      <section class="hero">
+      <section class="hero container">
         <!-- Section Hero -->
         <h1 class="hero-title">
-          Эффективные решения <br />
-          для вашего бизнеса
+          Эффективные решения для вашего бизнеса
         </h1>
         <a class="button" href="">Заказать услугу</a>
       </section>
 
-      <section class="section advantages">
+      <section class="section advantages container">
         <!--Section Advantages  -->
         <h2 class="hidden-title">Наши преимущества</h2>
         <!-- Invisible header -->
@@ -78,7 +85,7 @@
               alt="Пунктуальность"
             />
             <h3 class="title">Пунктуальность</h3>
-            <p>
+            <p class="text">
               Задача организации, в особенности<br />
               же рамки и место обучения кадров<br />
               влечет за собой.
@@ -92,7 +99,7 @@
               alt="Тщательное планирование"
             />
             <h3 class="title">Планирование</h3>
-            <p>
+            <p class="text">
               Равным образом консультация с<br />
               широким активом в значительной<br />
               степени обуславливает.
@@ -101,11 +108,12 @@
 
           <li>
             <img
+              class="advantage-image"
               src="./images/AdvantModerntech.svg"
               alt="Современные технологии"
             />
             <h3 class="title">Современные технологии</h3>
-            <p>
+            <p class="text">
               Значимость этих проблем настолько<br />
               очевидна, что реализация плановых<br />
               заданий.
@@ -114,7 +122,7 @@
         </ul>
       </section>
 
-      <section class="activities section">
+      <section class="activities section container">
         <!--Section Activities  -->
         <h2 class="title">Чем мы занимаемся</h2>
         <ul class="list">
@@ -148,104 +156,114 @@
       </section>
 
       <section class="section team">
-        <!-- Section Our Team Members -->
-        <h2 class="title">Наша команда</h2>
-        <ul class="list">
-          <li>
-            <img
-              src="./images/JohnSmith.jpg"
-              alt="Дизайн продукта Николай Кучеренко"
-              width="270"
-            />
-            <h3 class="member">Николай Кучеренко</h3>
-            <p lang="en" class="text">Product Designer</p>
-            <ul class="list">
-              <!-- Social network List -->
-              <li>
-                <a class="link" href="" aria-label="Instagram">Instagram</a>
-              </li>
-              <li><a class="link" href="" aria-label="Twitter">Twitter</a></li>
-              <li>
-                <a class="link" href="" aria-label="Facebook">Facebook</a>
-              </li>
-              <li>
-                <a class="link" href="" aria-label="LinkedIn">LinkedIn</a>
-              </li>
-            </ul>
-          </li>
+        <div class="container">
+          <!-- Section Our Team Members -->
+          <h2 class="title">Наша команда</h2>
+          <ul class="list">
+            <li>
+              <img
+                src="./images/JohnSmith.jpg"
+                alt="Дизайн продукта Николай Кучеренко"
+                width="270"
+              />
+              <h3 class="member">Николай Кучеренко</h3>
+              <p lang="en" class="text">Product Designer</p>
+              <ul class="list">
+                <!-- Social network List -->
+                <li>
+                  <a class="link" href="" aria-label="Instagram">Instagram</a>
+                </li>
+                <li>
+                  <a class="link" href="" aria-label="Twitter">Twitter</a>
+                </li>
+                <li>
+                  <a class="link" href="" aria-label="Facebook">Facebook</a>
+                </li>
+                <li>
+                  <a class="link" href="" aria-label="LinkedIn">LinkedIn</a>
+                </li>
+              </ul>
+            </li>
 
-          <li>
-            <img
-              src="./images/MartaStewart.jpg"
-              alt="Фронтэнд разработчик Ольга Иванова"
-              width="270"
-            />
-            <h3 class="member">Ольга Иванова</h3>
-            <p lang="en">Frontend Developer</p>
-            <ul class="list">
-              <!-- Social network List -->
-              <li>
-                <a class="link" href="" aria-label="Instagram">Instagram</a>
-              </li>
-              <li><a class="link" href="" aria-label="Twitter">Twitter</a></li>
-              <li>
-                <a class="link" href="" aria-label="Facebook">Facebook</a>
-              </li>
-              <li>
-                <a class="link" href="" aria-label="LinkedIn">LinkedIn</a>
-              </li>
-            </ul>
-          </li>
+            <li>
+              <img
+                src="./images/MartaStewart.jpg"
+                alt="Фронтэнд разработчик Ольга Иванова"
+                width="270"
+              />
+              <h3 class="member">Ольга Иванова</h3>
+              <p lang="en" class="text">Frontend Developer</p>
+              <ul class="list">
+                <!-- Social network List -->
+                <li>
+                  <a class="link" href="" aria-label="Instagram">Instagram</a>
+                </li>
+                <li>
+                  <a class="link" href="" aria-label="Twitter">Twitter</a>
+                </li>
+                <li>
+                  <a class="link" href="" aria-label="Facebook">Facebook</a>
+                </li>
+                <li>
+                  <a class="link" href="" aria-label="LinkedIn">LinkedIn</a>
+                </li>
+              </ul>
+            </li>
 
-          <li>
-            <img
-              src="./images/RobertJakis.jpg"
-              alt="Маркетолог Андрей Шевченко"
-              width="270"
-            />
-            <h3 class="member">Андрей Шевченко</h3>
-            <p lang="en">Marketing</p>
-            <ul class="list">
-              <!-- Social network List -->
-              <li>
-                <a class="link" href="" aria-label="Instagram">Instagram</a>
-              </li>
-              <li><a class="link" href="" aria-label="Twitter">Twitter</a></li>
-              <li>
-                <a class="link" href="" aria-label="Facebook">Facebook</a>
-              </li>
-              <li>
-                <a class="link" href="" aria-label="LinkedIn">LinkedIn</a>
-              </li>
-            </ul>
-          </li>
+            <li>
+              <img
+                src="./images/RobertJakis.jpg"
+                alt="Маркетолог Андрей Шевченко"
+                width="270"
+              />
+              <h3 class="member">Андрей Шевченко</h3>
+              <p lang="en " class="text">Marketing</p>
+              <ul class="list">
+                <!-- Social network List -->
+                <li>
+                  <a class="link" href="" aria-label="Instagram">Instagram</a>
+                </li>
+                <li>
+                  <a class="link" href="" aria-label="Twitter">Twitter</a>
+                </li>
+                <li>
+                  <a class="link" href="" aria-label="Facebook">Facebook</a>
+                </li>
+                <li>
+                  <a class="link" href="" aria-label="LinkedIn">LinkedIn</a>
+                </li>
+              </ul>
+            </li>
 
-          <li>
-            <img
-              src="./images/MartinDoe.jpg"
-              alt="Дизайнер юзер интерфейса Иван Николаев"
-              width="270"
-            />
-            <h3 class="member">Иван Николаев</h3>
-            <p lang="en">UI Designer</p>
-            <ul class="list">
-              <!-- Social network List -->
-              <li>
-                <a class="link" href="" aria-label="Instagram">Instagram</a>
-              </li>
-              <li><a class="link" href="" aria-label="Twitter">Twitter</a></li>
-              <li>
-                <a class="link" href="" aria-label="Facebook">Facebook</a>
-              </li>
-              <li>
-                <a class="link" href="" aria-label="LinkedIn">LinkedIn</a>
-              </li>
-            </ul>
-          </li>
-        </ul>
+            <li>
+              <img
+                src="./images/MartinDoe.jpg"
+                alt="Дизайнер юзер интерфейса Иван Николаев"
+                width="270"
+              />
+              <h3 class="member">Иван Николаев</h3>
+              <p lang="en" class="text">UI Designer</p>
+              <ul class="list">
+                <!-- Social network List -->
+                <li>
+                  <a class="link" href="" aria-label="Instagram">Instagram</a>
+                </li>
+                <li>
+                  <a class="link" href="" aria-label="Twitter">Twitter</a>
+                </li>
+                <li>
+                  <a class="link" href="" aria-label="Facebook">Facebook</a>
+                </li>
+                <li>
+                  <a class="link" href="" aria-label="LinkedIn">LinkedIn</a>
+                </li>
+              </ul>
+            </li>
+          </ul>
+        </div>
       </section>
 
-      <section class="section clients">
+      <section class="section clients container">
         <!-- Section Constant Clients -->
         <h2 class="title">Постоянные клиенты</h2>
         <ul class="list">
@@ -284,7 +302,7 @@
       </section>
     </main>
 
-    <footer class="footer">
+    <footer class="footer container">
       <!-- Footer -->
       <a class="logo link" href="index.html">
         <span class="web">Web</span>
@@ -304,7 +322,7 @@
         </ul>
       </address>
       <!-- Our Social Networks -->
-      <h2>присоединяйтесь</h2>
+      <h2 class="text">присоединяйтесь</h2>
       <ul class="list social">
         <!-- Social network List -->
         <li><a href="" class="link" aria-label="Instagram">Instagram</a></li>
@@ -312,10 +330,9 @@
         <li><a href="" class="link" aria-label="Facebook">Facebook</a></li>
         <li><a href="" class="link" aria-label="LinkedIn">LinkedIn</a></li>
       </ul>
-      <h2>Подпишитесь на рассылку</h2>
+      <h2 class="text">Подпишитесь на рассылку</h2>
       <p class="button">Подписаться</p>
       <!-- Тут будет форма подписки - когда научусь! =))) -->
-      <p class="developer">2020 | Developed by GoIT Students</p>
     </footer>
   </body>
 </html>
